@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+</head>
+<body>
+    <h1>Admin Panel</h1>
+    <form action="/products" method="post" enctype="multipart/form-data">
+        <label for="name">Product Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="price">Price:</label><br>
+        <input type="text" id="price" name="price"><br><br>
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description"></textarea><br><br>
+        <label for="image">Image:</label><br>
+        <input type="file" id="image" name="image"><br><br>
+        <input type="submit" value="Add Product">
+    </form>
+</body>
+</html>
